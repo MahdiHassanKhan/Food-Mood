@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    margin: 0;
 }
 
 #first-heading{
@@ -11,6 +13,30 @@ body{
     padding-top: 195px;
     color: gray;
 }
+
+#third-heading{
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+}
+
+#third-heading-line{
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-head{
+    font-size: 35px;
+}
+
+.footer-part{
+    background-color: black;
+    text-align: center;
+    margin-top: 90px;
+    padding: 0px 0px 20px;
+}
+
 
 a{
     text-decoration: none;
@@ -24,6 +50,12 @@ a{
     display: flex;
 }
 
+.fifth-section{
+    margin-top: 100px;
+    display: flex;
+    display: block;
+}
+
 .first-part{
     margin-left: 5%;
     margin-top: 5%;
@@ -34,12 +66,57 @@ a{
     width: 50%;
 }
 
+.third-part{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.fourth-part{
+   width: 30%;
+   padding: 20px 20px 20px 20px;
+   margin-left: 5%;
+   margin-right: 5%;
+   box-shadow: 10px 10px 5px black;
+   border-radius: 20px;
+   background-color: white;
+}
+
+.fifth-part{
+    padding: 20px 20px 0px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 20px;
+    background-color: white;
+ }
+
 #first-heading{
     padding-top: 150px;
 }
 
-.skip-word{
+.fifth-heading{
+    font-size: 30px;
+    font-weight:bolder;
+    padding: 25px 45px 25px 235px;
+    display: inline-block;
+}
+.para{
+    font-weight:bolder;
+    padding: 0px 45px 25px 170px;
+    display: inline-block;
+}
+
+.foot-para{
+    color: white;
+    font-weight: bolder;
+}
+
+.orange-word{
     color: #fb934a;
+}
+.gray-word{
+    color:gray;
 }
 
 .second-section{
@@ -57,6 +134,13 @@ a{
     padding-left: 100px;
 }
 
+
+
 .second-section{
     display: flex;
+}
+
+.fourth-section{
+    display: flex;
+    padding-top: 50px;
 }
