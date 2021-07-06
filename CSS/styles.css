@@ -165,3 +165,39 @@ body{
     display: flex;
     padding-top: 50px;
 }
+
+.flexible{
+    display: flex;
+    
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.review{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.div-review{
+    width: 50%;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(5, 10, 54), rgb(100, 86, 219));
+    border-image-slice: 1;
+    margin-right: 7%;
+    
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(211, 13, 105), rgb(78, 3, 60));
+    border-image-slice: 4;
+ 
+}
+
