@@ -37,14 +37,35 @@ body{
     padding: 0px 0px 20px;
 }
 
+.header-part{
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 25px;
+}
 
-a{
+
+
+.rest{
     text-decoration: none;
     background-image: linear-gradient(#fb974c,#fd492e);
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
 }
+
+.top{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.topdiv{
+    text-align: center;
+}
+
+
 
 .first-section{
     display: flex;
